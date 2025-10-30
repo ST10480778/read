@@ -1,26 +1,71 @@
-## 🧾 Self-Evaluation Reflective Report (Draft)
+# 🌐 Empowering The Nation Mobile Application
 
-### 1. **Introduction**
-During the Work Integrated Learning (WIL) module, I had the opportunity to apply my foundational knowledge in mobile and web development to a real-world scenario. This experience allowed me to integrate technical skills with design thinking and teamwork, while also reflecting on my personal growth and professional development.
+[![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black)](https://reactnative.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Snack Expo](https://img.shields.io/badge/Snack_Expo-1B1F23?style=flat&logo=expo&logoColor=white)](https://snack.expo.dev/)
+[![Expo Go](https://img.shields.io/badge/Expo_Go-000000?style=flat&logo=expo&logoColor=white)](https://expo.dev/)
 
-### 2. **My Role and Contributions**
-In the early stages, I contributed an individual report outlining my ideal design for the Empowering the Nation web page and mobile app. I used **Figma** to create wireframes and mockups, focusing on intuitive navigation, responsive design, and accessibility. I also designed a logo that reflects the professionalism and purpose of the business.
+> An e-learning mobile application providing accessible, accredited, and industry-relevant training programs with a clean user flow for course browsing, enrollment, and student progress tracking.
 
-During the group phase, my design was selected as the base, and I collaborated with my teammates to refine the UI and UX. I took the lead on implementing the mobile app using **Kotlin** and assisted with the React-based web interface. I ensured consistency in layout, color palette, and iconography across both platforms.
+---
 
-### 3. **Skills Developed**
-- **Technical Skills**: I deepened my understanding of **Kotlin**, **React Native**, and responsive design principles. I also improved my ability to use **Figma components** and prototyping tools effectively.
-- **Teamwork**: Working in a group helped me practice clear communication, task delegation, and conflict resolution.
-- **Time Management**: Balancing milestones and deliverables taught me to prioritize tasks and meet deadlines consistently.
+## 🚀 Overview
 
-### 4. **Challenges and Solutions**
-One challenge was aligning the mobile and web interfaces to ensure a seamless user experience. To solve this, I created a shared design system in Figma and held weekly syncs with my team to review progress. Another challenge was video editing for our final presentation, which I overcame by learning basic editing tools and coordinating remote recordings.
+The Empowering The Nation Mobile Application is designed to provide users with a seamless e-learning experience. This repository contains the **source code** and **wireframe documentation** guiding development, including user flows, screen structures, and UI components.
 
-### 5. **Reflection and Growth**
-This module helped me reflect on my strengths and areas for improvement. I realized the importance of **user-centered design** and how small details—like button placement or font choice—can impact usability. I also became more confident in presenting my work, both visually and verbally.
+**Project Context:** Module XHAW5112 (Work Integrated)  
+**Developers:** Yenziwe, Azania, Luke, and Asanda
 
-### 6. **Employability Skills**
-Through this experience, I developed key employability skills:
-- **Problem-solving**: Tackling design and development issues with creative solutions.
-- **Communication**: Explaining technical concepts to non-technical peers.
-- **Professionalism**: Meeting deadlines, respecting team roles, and maintaining a positive attitude.
+---
+
+## ✨ Key Features
+
+- **User Authentication & Profile:** Secure sign-up/login and dedicated profile management.  
+- **Course Catalog & Filtering:** Browse all courses with filtering options (6 weeks or 6 months).  
+- **Shopping Cart & Checkout:** Calculate subtotal, discounts, 15% VAT, and proceed to checkout.  
+- **Student Dashboard:** Personalized landing screen with Progress Bar, Course Calendar, and Enrolled Courses.  
+- **Informational Screens:** About Us detailing mission, industry expertise, and commitment to flexible learning.  
+
+---
+
+## 📸 Screenshots
+
+| Screen | Purpose |
+|--------|---------|
+| Home Screen | Highlights featured 6-Week and 6-Month courses |
+| Course Details | Displays course purpose, price, key content, and "Add to Cart" |
+| Student Dashboard | Shows student progress, assignments, and enrolled courses |
+| Cart/Checkout | Summary of selected courses, calculated totals, and "Proceed to Quote/Checkout" |
+
+### Home Screen Preview
+![Screenshot of the mobile application's home screen](path/to/img/home_screen.png)
+
+### Student Dashboard Preview
+![Screenshot of the student progress and calendar on the dashboard](path/to/img/dashboard_screen.png)
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Icon | Purpose |
+|------------|------|---------|
+| React Native | ⚛️ | Core framework for cross-platform mobile development |
+| TypeScript | 🔵 | Strong typing for robust and maintainable code |
+| Expo | ⬡ | Development environment, builds, and asset management |
+| API | 🔗 | Handles authentication, course data, and checkout logic |
+
+**Dependencies:** react-native-dropdown-select-list, react-native-calendars, Ionicons (@expo/vector-icons)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Prerequisites
+- Node.js (LTS recommended)  
+- npm or Yarn  
+- Expo CLI (`npm install -g expo-cli`)  
+
+### 2. Clone the Repository
+```bash
+git clone [Your Repository URL]
+cd empowering-the-nation
